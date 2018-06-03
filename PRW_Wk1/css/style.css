@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+header {
+  color: white;
+  background: url("/images/cooking-dinner-food-76093.jpg") no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding: 8%;
+  margin-bottom: 60px; }
+
+header h1 {
+  font-size: 80px; }
+
+header h2 {
+  padding-bottom: 4%; }
+
+header ul {
+  margin: 0 auto;
+  max-width: 80%;
+  list-style: none;
+  background: orange;
+  padding: 20px; }
+
+header li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 20px; }
+  header li a {
+    text-decoration: none;
+    color: white; }
+
+.addRecipeContainer {
+  padding: 50px;
+  margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  width: 300px; }
+  .addRecipeContainer form {
+    padding: 10px; }
+  .addRecipeContainer form label {
+    display: block; }
+  .addRecipeContainer form input {
+    width: 300px; }
+  .addRecipeContainer form #rating input {
+    width: 12px; }
+
+#recipesContainer {
+  padding: 8%;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%; }
+  #recipesContainer li {
+    width: 42%;
+    padding: 3%;
+    margin: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  #recipesContainer li:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.deleteRecipe {
+  cursor: pointer;
+  color: orange;
+  display: inline-block; }
+
+.deleteRecipe:hover {
+  color: #d68d04; }
+
+footer {
+  background: orange;
+  padding: 10px;
+  text-align: center;
+  color: white; }
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 0%;
+    height: 400px; }
+  header li {
+    font-size: 18px;
+    display: block; }
+  #recipesContainer li {
+    width: 100%; } }

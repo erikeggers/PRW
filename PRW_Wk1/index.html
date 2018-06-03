@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cook</h1>
+        <h2>Your personal recipe manager</h2>
+        <nav>
+            <ul>
+               <li><a href="#">Appetizers</a></li>
+               <li><a href="#">Main Course</a></li>
+               <li><a href="#">Salads</a></li>
+               <li><a href="#">Soups</a></li>
+               <li><a href="#">Desserts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="addRecipeContainer">
+        <h3>Add a new recipe</h3>
+        <form action="" name="add-recipe">
+            <label for="recipe-name">Recipe Name</label>
+            <input name="recipe-name" type="text" />
+            <label for="recipe-desc">Recipe Description</label>
+            <input name="recipe-desc" type="text" />
+            <label for="recipe-cat">Recipe Category</label>
+            <input name="recipe-cat" type="text" />
+            <label for="recipe-rating">Recipe Rating</label>
+            <div id="rating" name="recipe-rating">
+                <input type="radio" name="rate" value="1"> 1
+                <input type="radio" name="rate" value="2"> 2
+                <input type="radio" name="rate" value="3" checked="checked"> 3
+                <input type="radio" name="rate" value="4"> 4
+                <input type="radio" name="rate" value="5"> 5
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </section>
+    <section class="container">
+        <h3>Your favorite recipes</h3>
+        <ul id="recipesContainer">
+        
+        </div>
+    </section>
+    <footer>
+        Erik Eggers - 2018
+    </footer>
+<script src="dist/main.js"></script>
+</body>
+</html>
