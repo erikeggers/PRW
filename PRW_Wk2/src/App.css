@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: rgb(47, 151, 199);
+  color: white;
+  text-align: center;
+  padding: 4%;
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+button {
+  border: none;
+}
+
+button svg{
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.addItem {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin: 0 auto;
+  padding: 4%;
+  width: 300px;
+  text-align: center;
+}
+
+.addItem label {
+  display: block;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.addItem input{
+  padding: 6px;
+  width: 300px;
+}
+
+.addItem button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.addedItems {
+  margin: 0 auto;
+  padding: 8%;
+  max-width: 1040px;
+}
+
+.addedItems h2 {
+  background: rgb(47, 151, 199);
+  padding: 6px;
+  color: white;
+}
+
+.addedItems li {
+  border-bottom: 1px solid rgb(155, 155, 155);
+  padding: 10px 20px 10px 10px
+}
+
+.addedItems span:first-child {
+  padding-right: 8px;
+}
+
+.addedItems button {
+  float: right;
+  width: 10px;
+  height: 10px;
+}
+
+.addedItems button svg{
+  width: 20px;
+  height: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 2%;
+  text-align: center;
+}
+
+
