@@ -86,9 +86,6 @@ ul {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   background: black;
   color: white;
   padding: 2%;
